@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+width: 100vw;
+height: 7vh;
+background-color: lightblue;
+display: flex;
+align-items: center;
+gap: 1rem;
+font-size: 1vmax;
+}
+.navbar span{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-left:10px ;
+    color: hotpink;
+}
+.navbar a:hover{
+    color: blue;
+}
+.container{
+    width: 500px;
+    height: 300px;
+}
+.error{
+    background-color:rgb(246, 114, 114);
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    color: white;
+    /* width: fit-content; */
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+}
+.content{
+    width: 100vw;
+    height: 93vh;
+    max-height: 400vh;   
+    /* background-color:pink; */
+    text-align: center;
+}
+
+.bigContainer{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container{
+    background-color:white;
+    width: 14rem;
+    color: black;
+    margin-top: 10px;
+     line-height: 2rem;
+     height: fit-content;
+     margin-left: 25px;
+     border-radius: 5px;
+    box-shadow: 0 0 3px black;
+}
+.content h1{
+    font-size: 2.5rem;
+    /* letter-spacing: 5px; */
+    gap: 5px;
+}
+.container a{
+    margin: 10px;
+}
+h3{
+    color: rgb(77, 77, 77);
+}
+h2{
+    font-size: 1.5rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+}
+.form-group{
+    margin-top: 2rem;
+    display:flex;
+    line-height: 2.5rem;
+    flex-direction: column;
+}
+.form-group label{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.form-group input{
+    height: 2rem;
+    width: 70vw;
+    margin-left: 12rem;
+    text-align: center;
+    border:2px solid gray;
+    outline: none;
+
+}
+button{
+    background-color: rgb(65, 157, 193);
+    color: white;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 100px;
+margin-top: 10px;
+    margin-left: 47%;
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+}
+button:hover{
+    background-color:rgb(5, 45, 61);
+}
+.link{
+   color: blue;
+   font-size: 1.1rem;
+
+}
+.link:hover{
+    color: deeppink;
+
+}
